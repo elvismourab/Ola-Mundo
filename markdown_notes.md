@@ -1,9 +1,9 @@
-# Guia da Linguagem Markdown - Curso em Vídeo - Gustavo Guanabara
-## Anotações pessoais - testes
+# Guia da Linguagem Markdown - Curso em Vídeo
+## Anotações pessoais / testes
 
-\n**Negrito** ou __Negrito__ (** ** ou __ __)
-\n*Itálico* ou _Itálico_ (* * ou _ _)
-\n~~Tachado~~ (\~~ ~~)
+**Negrito** ou __Negrito__ (** ** ou __ __)\
+*Itálico* ou _Itálico_ (* * ou _ _)\
+~~Tachado~~ (\~~ ~~)
 
 # Título 1 (\#)
 ## Título 2 (\#\#)
@@ -11,13 +11,14 @@
 [...]
 
 ---
-***
 (--- ou *** = inserir linha)
+***
 
-Podemos misturar configurações:
-\n__*Negrito e Itálico*__ (\__* *__)
-\n~~*Itálico e Tachado*~~ (\~~* *~~)
+Podemos misturar configurações:\
+__*Negrito e Itálico*__ (\__* *__)\
+~~*Itálico e Tachado*~~ (\~~* *~~)
 
+---
 Lista numerada (+subitens) :
 1. Teste1
 1. Teste2
@@ -35,12 +36,13 @@ Lista demarcada (* ou -):
 - Teste
 - Teste
 
-Lista de tarefas (- [] - [x]):
+Lista de tarefas (- [ ] - [x]):
 - [x] Criar a página principal.
 - [x] Criar a página da loja.
 - [ ] Finalizar a reunião com o cliente.
 - [ ] Receber pagamento.
 
+---
 Tabela:
 Num | Nome | Nota
 ---|---|---
@@ -49,23 +51,27 @@ Num | Nome | Nota
 3 | Shavo | 7.6
 4 | John | 9.0
 
-Trecho de código (''' '''):
-'''num = int(input('Digite um valor: '))
+---
+Trecho de código (\``` ```):
+```
+num = int(input('Digite um valor: '))
 if num % 2 = 0
     print(f'O valor {num} é PAR)
 else:
-    print(f'O valor {num} é IMPAR)'''
+    print(f'O valor {num} é IMPAR)
+```
 
-emoji (:nome)\n
+---
+emoji (:nome)\
 :orangutan:
 :rooster:
 :metal:
 
+---
 >Quote!
-\n(\>frase)
+(\>frase)
 
-octocat-geared.png
-
-image.png
-
+---
+\
+![octocat-geared_400x](https://github.com/elvismourab/Ola-Mundo/assets/134620668/01edd7ec-473a-4272-a3e1-2e714bae4cfe)\
 [Acesse meu GitHub](https://github.com/elvismourab)
