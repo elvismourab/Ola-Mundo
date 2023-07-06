@@ -1,0 +1,30 @@
+modified - arquivos alterados
+staging - arquivos prontos para serem enviados
+commited - arquivos enviados "commited"
+
+git --version
+git config --global --list
+git config --global user.name "user.name"
+git config --global user.email "user.email"
+
+comandos:
+dir / ls - lista arquivos do caminho atual
+cd - change directory
+cd .. - return directory
+
+rm / rmdir
+mk / mkdir
+
+nano / cat *
+
+----------
+
+git --version
+git init [initialized empty repository in 'Git Bash place']
+git add [add files to the staging area]
+git status [changes to be commited]
+git commit -m "commit message"
+git branch -M "main" ['rename' branch]
+git remote add origin 'remote repository url'
+git push -u origin main
+
