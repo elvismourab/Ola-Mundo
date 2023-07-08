@@ -2,12 +2,13 @@ modified - arquivos alterados
 staging - arquivos prontos para serem enviados
 commited - arquivos enviados "commited"
 
+#Check install / version, define user and email
 git --version
 git config --global --list
 git config --global user.name "user.name"
 git config --global user.email "user.email"
 
-comandos:
+#cmd:
 dir / ls - lista arquivos do caminho atual
 cd - change directory
 cd .. - return directory
@@ -19,6 +20,7 @@ nano / cat *
 
 ----------
 
+#Init commands
 git --version
 git init [initialized empty repository in 'Git Bash place']
 git add [add files to the staging area]
@@ -28,3 +30,19 @@ git branch -M "main" ['rename' branch]
 git remote add origin 'remote repository url'
 git push -u origin main
 
+----------
+
+git add . [add all files to the staging area]
+git push origin main
+
+git checkout -b "new-branch-name" [creates a new branch]
+git push origin new-branch-name
+
+git checkout main [switch to branch 'main']
+git merge new-branch-name
+
+----------
+
+#Git clone + pull requests *
+git clone 'repository link'
+git pull [update from remote, including forked repos]
